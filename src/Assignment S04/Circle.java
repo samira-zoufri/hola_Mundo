@@ -1,7 +1,7 @@
 public class Circle {
 
-    double radio;
-    String color;
+    private double radio;
+    private String color;
     public circle(){
 
     }
