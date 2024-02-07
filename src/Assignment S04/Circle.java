@@ -21,4 +21,11 @@ public class Circle {
     public double getArea() {
         return Math.PI*this.radio*this.radio;
     }
+    public String toString() {
+        return "Circle[radius=" + this.radio + " color=" + this.color + "]";
+    }
+
+    public void setRadio(float radioNuevo){
+        this.radio = radioNuevo;
+    }
 }
