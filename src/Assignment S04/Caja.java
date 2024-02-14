@@ -42,7 +42,7 @@ public class Caja {
                for (int j = 1 ;j<bola.getX();j++){
                    System.out.print("  ");
                 }
-               System.out.print("#");
+               System.out.print("@");
                 for (int j= (int)bola.getX() ;j<this.dx; j++){
                     System.out.print("  ");
                 }
