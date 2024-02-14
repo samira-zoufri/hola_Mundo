@@ -9,8 +9,8 @@ public class Ball {
         this.radio = 3;
         this.vx = 1;
         this.vy = 1;
-        this.x=0;
-        this.y=0;
+        this.x=2;
+        this.y=2;
     }
     public Ball(int radio, float vx, float vy,float x,float y) {
         this.radio = radio;
