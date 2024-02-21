@@ -1,7 +1,9 @@
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
 
 
+
+       /*
         Circle c1 = new Circle();
         Circle c2 = new Circle(3, "Azul");
         System.out.println(c2.getArea());
@@ -13,11 +15,22 @@ public class Main {
         Caja caja = new Caja(30,20);
         caja.imprimir();
         System.out.println("\n\n\n");
-        caja.imprimirBola(bola);
+        caja.imprimirBola(bola);*/
+
+        Employee empleado = new Employee(12,"Nombre", "Apellido", 1200);
+        empleado.getFirstName();
+        empleado.getId();
+        empleado.getSalary();
+        empleado.getLastName();
+        empleado.toString();
+        empleado.setSalary(12);
+        empleado.getAnualSalary();
+        empleado.raiseSalary(10);
 
 
 
-        while (true) {
+
+        /*while (true) {
             System.out.println("\n\n\n\n\n");
             caja.imprimirBola(bola);
             if (bola.getX() <= 1 || bola.getX() >= caja.getDx() ) {
@@ -32,7 +45,7 @@ public class Main {
 
             } catch (InterruptedException a ){System.out.println("xd");
             }
-        }
+        }*/
         }
     }
 

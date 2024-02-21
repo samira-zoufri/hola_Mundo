@@ -1,18 +1,18 @@
 public class Employee {
-    private String id;
+    private int id;
     private String firstName;
     private String lastName;
     private int salary;
 
 
-    public Employee(String id, String firstName, String lastName,int salary){
+    public Employee(int id, String firstName, String lastName,int salary){
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -35,7 +35,9 @@ public class Employee {
         this.salary = salary;
     }
     public int raiseSalary(int percent){
-        setSalary(getSalary()+percent*getSalary()/100);
+        int a = getSalary()+percent*getSalary()/100;
+        setSalary(a);
+        return a;
     }
 
     @Override
