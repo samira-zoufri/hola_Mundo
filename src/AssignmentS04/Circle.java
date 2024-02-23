@@ -1,3 +1,4 @@
+package AssignmentS04;
 
 public class Circle {
 
@@ -22,7 +23,7 @@ public class Circle {
         return Math.PI*this.radio*this.radio;
     }
     public String toString() {
-        return "Circle[radius=" + this.radio + " color=" + this.color + "]";
+        return "AssignmentS04.Circle[radius=" + this.radio + " color=" + this.color + "]";
     }
 
     public void setRadio(float radioNuevo){

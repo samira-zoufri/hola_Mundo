@@ -1,3 +1,4 @@
+/*
 package Pantalla_emergente;
 
 public class SimpleWindowAWT {
@@ -59,3 +60,5 @@ public class SimpleWindowAWT {
         method.invoke(obj, args);
     }
 }
+
+ */

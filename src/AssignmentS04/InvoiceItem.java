@@ -1,3 +1,5 @@
+package AssignmentS04;
+
 public class InvoiceItem {
     private String id;
     private String desc;
@@ -42,7 +44,7 @@ public class InvoiceItem {
 
     @Override
     public String toString(){
-        return "InvoiceItem{" +
+        return "AssignmentS04.InvoiceItem{" +
                 "id='" + id + '\'' +
                 ", desc='" + desc + '\'' +
                 ", qty=" + qty +

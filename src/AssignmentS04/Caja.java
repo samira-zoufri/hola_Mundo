@@ -1,3 +1,5 @@
+package AssignmentS04;
+
 public class Caja {
     int dx;
     int dy;
