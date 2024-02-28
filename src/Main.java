@@ -16,8 +16,8 @@ public class Main {
         asd2[0] = TTT;
         asd2[1] = AAA;
 
-        Book libro1 = new Book("LibroAccion", asd,120,200);
-        Book libro2 = new Book("LibroAmor", asd2,140,100);
+        Book libro1 = new Book("LibroAccion","12", asd,120,200);
+        Book libro2 = new Book("LibroAmor","23", asd2,140,100);
 
 
     }
