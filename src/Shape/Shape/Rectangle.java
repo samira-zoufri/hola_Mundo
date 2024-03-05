@@ -1,7 +1,5 @@
 package Shape.Shape;
 
-import EjerciciosHerencias.Personas.Person;
-
 public class Rectangle extends Shape {
     protected double width;
     protected double length;
